@@ -25,7 +25,9 @@ export function Navbar()
           <Link to="/product">
           <li className="nav-button-home"><a href="#">Products</a></li>
           </Link>
+          <Link to="/blogs">
           <li className="nav-button-home"><a href="#">Blogs</a></li>
+          </Link>
           <Link to="/activities">
           <li className="nav-button-home"><a href="#">Activitys</a></li>
           </Link>

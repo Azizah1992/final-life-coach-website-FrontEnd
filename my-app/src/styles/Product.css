@@ -51,20 +51,20 @@
 
 .tag-1 
 {
-  background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--bcMuj3wG--/c_imagga_scale,f_auto,fl_progressive,h_240,q_auto,w_240/https://dev-to-uploads.s3.amazonaws.com/uploads/podcast/image/730/4558074d-0dee-4fd0-8595-9be0f1c1303c.png');
+  background-image: url('../photo/book1.png');
 }
 
 .tag-2
 {
- background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--HMYtC324--/c_imagga_scale,f_auto,fl_progressive,h_240,q_auto,w_240/https://dev-to-uploads.s3.amazonaws.com/uploads/podcast/image/21/art.png');
+ background-image: url('../photo/book2.png');
 } 
 
 .tag-3
 {
-  background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s---Lf79mJ5--/c_imagga_scale,f_auto,fl_progressive,h_240,q_auto,w_240/https://dev-to-uploads.s3.amazonaws.com/uploads/podcast/image/455/a6c39431-ab37-4e86-bae6-16bc11c1cf81.png');
+  background-image: url('../photo/book3.png');
 }
 
 .tag-4
 {
-  background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--9KFbd3tE--/c_imagga_scale,f_auto,fl_progressive,h_240,q_auto,w_240/https://dev-to-uploads.s3.amazonaws.com/uploads/podcast/image/58/c6bc9a85-2b7e-4b2b-9ac0-921bf4a37f7e.jpg');
+  background-image: url('../photo/book4.png');
 }

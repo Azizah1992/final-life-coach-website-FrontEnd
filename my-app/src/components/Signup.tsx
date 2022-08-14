@@ -9,6 +9,8 @@ import axios from 'axios'
 import React, { useContext } from 'react'
 import { useNavigate } from 'react-router'
 import { lifeContext } from '../Utlis/LifeContext'
+import { Navbar } from "./Navbar";
+import { Footer } from "./Footer";
 
 export default function SignupComp() {
      const navigate = useNavigate
@@ -39,6 +41,9 @@ export default function SignupComp() {
         }
 
     return (
+
+   <div>
+       <Navbar/>
         <div className="form">
 
 <form className="register-form acrylic">
@@ -86,6 +91,8 @@ export default function SignupComp() {
            <button id="SignIn">Login</button>
             </div>
             </form>
+            </div>
+            <Footer/>
             </div>
             
 

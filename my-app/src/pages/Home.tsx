@@ -15,8 +15,8 @@ export function HomePage()
            </div>
          
 
-      
-
+      <div className="contain-imgs" >
+<div className="con-con-icon">
         <div className="person">
       <div className="container">
         <div className="container-inner">
@@ -32,7 +32,7 @@ export function HomePage()
       </div>
       <div className="divider"></div>
       <div className="name">Alma</div>
-      <div className="title">Product Manager</div>
+      <div className="title">Bussnise Coach</div>
     </div>
     <div className="person">
       <div className="container">
@@ -49,7 +49,7 @@ export function HomePage()
       </div>
       <div className="divider"></div>
       <div className="name">Irma</div>
-      <div className="title">Senior Developer</div>
+      <div className="title">Health Coach</div>
     </div>
     <div className="person">
       <div className="container">
@@ -66,11 +66,14 @@ export function HomePage()
       </div>
       <div className="divider"></div>
       <div className="name">Anton</div>
-      <div className="title">Senior UX</div>
+      <div className="title">Life Coach</div>
     </div>
+    </div>
+    <div>
     <img className="our" src={Untitled} alt="Insta" srcSet="" width="90%" height="30%" />
+    </div>
 
-
+    </div>
     <div>
         <Footer/>
     </div>

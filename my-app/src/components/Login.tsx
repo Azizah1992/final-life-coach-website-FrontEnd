@@ -38,6 +38,7 @@ localStorage.setItem("userInfo", JSON.stringify(userInfo))
     }
     return (
 
+       
         <div className="form">
 
 <form className="register-form acrylic">
@@ -66,23 +67,4 @@ localStorage.setItem("userInfo", JSON.stringify(userInfo))
     )
     }
 
-
-    // <div className="login-page"></div>
-    // <div className="form">
-    //   <form className="register-form acrylic">
-    //     <span>Sign Up</span>
-    //     <input type="text" placeholder="Email"/>
-    //     <input type="password" placeholder="Password"/>
-    //     <button id="SignUp">Go</button>
-    //     <p className="message"><a href="#">I have Account</a></p>
-    //   </form>
-    
-     
-    //    <form className="login-form acrylic">
-    //     <span>Login to your account</span>
-    //     <input type="text" placeholder="Email"/>
-    //     <input type="password" placeholder="Password"/>
-    //     <button id="SignIn">Login</button>
-    //     <p className="message">Create Account</p>
-    //   </form> 
     

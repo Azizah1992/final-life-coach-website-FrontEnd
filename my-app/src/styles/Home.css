@@ -9,7 +9,7 @@ body {
   height: 100vh;
   margin: 0;
 
-}
+}*/
  .person {
   align-items: center;
   display: flex;
@@ -18,7 +18,19 @@ body {
 
  
 }
+.contain-imgs{
+  display: flex;
+  flex-direction: column;
+}
+.con-con-icon{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 10px;
+}
 .container {
+  /* display: ; */
   border-radius: 50%;
   height: 312px;
   -webkit-tap-highlight-color: transparent;
@@ -110,4 +122,4 @@ body {
 {
     justify-content: center;
     margin-left: 60px;
-}  */
+}  

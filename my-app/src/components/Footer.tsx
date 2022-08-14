@@ -29,15 +29,15 @@ export function Footer()
 
  <ul className="wrapper">
   <li className="icon facebook">
-    <span className="tooltip">Facebook</span>
+    {/* <span className="tooltip">Facebook</span> */}
     <span><i className="fab fa-facebook-f"><FacebookIcon  /></i></span>
   </li>
   <li className="icon twitter">
-    <span className="tooltip">Twitter</span>
+    {/* <span className="tooltip">Twitter</span> */}
     <span><i className="fab fa-twitter"><TwitterIcon  /> </i></span>
   </li>
   <li className="icon instagram">
-    <span className="tooltip">Instagram</span>
+    {/* <span className="tooltip">Instagram</span> */}
     <span><i className="fab fa-instagram"><InstagramIcon/></i></span>
   </li>
   {/* <li className="icon github">
@@ -45,7 +45,7 @@ export function Footer()
     <span><i className="fab fa-github"></i></span>
   </li> */}
   <li className="icon youtube">
-    <span className="tooltip">Youtube</span>
+    {/* <span className="tooltip">Youtube</span> */}
     <span><i className="fab fa-youtube"><YouTubeIcon/></i></span>
   </li>
 </ul>

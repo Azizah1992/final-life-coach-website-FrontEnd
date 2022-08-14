@@ -7,6 +7,7 @@ import SignupComp from './components/Signup';
 // import Signup from './components/Signup';
 import { ActivityPage } from './pages/Activites';
 import { AppointmentsPage } from './pages/Appointments';
+import BlogsPage from './pages/Blogs';
 import { CoachesPage } from './pages/Coaches';
 import { HomePage } from './pages/Home';
 import {LandPage }from "./pages/LandPage";
@@ -97,6 +98,7 @@ const store ={
           <Route path="/product" element={<ProductPage />} />
           <Route path="/signup" element={<SignupComp />} />
           <Route path="/login" element={<LoginComp />} />
+          <Route path="/blogs" element={<BlogsPage />} />
 
 
        

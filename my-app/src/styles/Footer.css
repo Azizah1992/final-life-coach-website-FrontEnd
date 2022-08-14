@@ -1,8 +1,8 @@
 
- /* footer{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
+ footer{ 
+	/* display: -webkit-box;*/
+	/* display: -ms-flexbox;  */
+	  display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
@@ -13,29 +13,27 @@
 	text-align: center;
 	color: #fff;
 	background-color: #414a4f;
-	padding: 60px 0;
-} */
-
-/* footer ul{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
+	padding: 60px 0; 
+}
+/* 
+footer ul{
+	/* display: -webkit-box;*/
+	/* display: -ms-flexbox;  */
+	/* display: flex;
 	margin-bottom: 25px;
 	font-size: 32px;
+} footer ul li{
+	margin: 0 8px;	 */
+/* } */ 
+
+/* footer ul li:first-child{
+	margin-left: 0;	
 } */
 
-/* footer ul li{
-	margin: 0 8px;	
-}
-
-footer ul li:first-child{
-	margin-left: 0;	
-}
-
-footer ul li:last-child{
+/* footer ul li:last-child{
 	margin-right: 0;	
-}
-
+} */
+/* 
 footer p{
 	text-transform: uppercase;
 	font-size: 14px;
@@ -45,15 +43,15 @@ footer p{
 
 footer p a{
 	color: #fff;
-} */
+} 
 
-/* @media (max-width: 700px){
+ @media (max-width: 700px){
 
 	footer{
 		padding: 80px 15px;
 	}
 
-}
+} */
 
 
 
@@ -61,19 +59,19 @@ footer p a{
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
-*:focus,
+/* *:focus,
 *:active {
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
-}
+} */
 
-html,
+/* html,
 body {
   display: grid;
   height: 100%;
@@ -81,14 +79,14 @@ body {
   font-family: "Poppins", sans-serif;
   place-items: center;
   background: linear-gradient(315deg, #ffffff, #d7e1ec);
-} 
+}  */
 
- .wrapper {
+ /* .wrapper {
   display: inline-flex;
   list-style: none;
-}
+} */
 
-.wrapper .icon {
+/* .wrapper .icon {
   position: relative;
   background: #ffffff1c;
   border-radius: 50%;
@@ -104,9 +102,9 @@ body {
   box-shadow: 0 10px 10px rgba(75, 77, 100, 0.1);
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-} */
+} */ 
 
-/* .wrapper .tooltip {
+ /* .wrapper .tooltip {
   position: absolute;
   top: 0;
   font-size: 14px;
@@ -118,9 +116,9 @@ body {
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
+} */
 
-.wrapper .tooltip::before {
+/* .wrapper .tooltip::before {
   position: absolute;
   content: "";
   height: 8px;
@@ -130,51 +128,51 @@ body {
   left: 50%;
   transform: translate(-50%) rotate(45deg);
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
+} */
+/* 
 .wrapper .icon:hover .tooltip {
   top: -45px;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-}
+} */
 
-.wrapper .icon:hover span,
+/* .wrapper .icon:hover span,
 .wrapper .icon:hover .tooltip {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-}
+} */
 
-.wrapper .facebook:hover,
+/* .wrapper .facebook:hover,
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover .tooltip::before {
   background: #1877F2;
   color: #ffffff;
-}
+} */
 
-.wrapper .twitter:hover,
+/* .wrapper .twitter:hover,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
   background: #1DA1F2;
   color: #ffffff;
-}
+} */
 
-.wrapper .instagram:hover,
+/* .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
   background: #E4405F;
   color: #ffffff;
 } */
-
-/* .wrapper .github:hover,
+/* 
+ .wrapper .github:hover,
 .wrapper .github:hover .tooltip,
 .wrapper .github:hover .tooltip::before {
   background: #333333;
   color: #ffffff;
-}
+} */
 
-.wrapper .youtube:hover,
+/* .wrapper .youtube:hover,
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover .tooltip::before {
   background: #CD201F;
-  color: #ffffff; */
-/* } */ 
+  color: #ffffff; 
+}  */ 
